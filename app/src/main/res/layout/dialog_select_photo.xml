@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <!--<LinearLayout
+        android:id="@+id/btnCamera"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_camera"
+            android:tint="@color/colorPrimary"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Take A Picture"
+            android:id="@+id/textView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnGallery"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_gallery"
+            android:tint="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Get Photo From Gallery" />
+    </LinearLayout>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text.select.camera"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_camera"
+        android:drawablePadding="5dp"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/text_view_selector"
+        android:id="@+id/btnCamera" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text.select.gallery"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_gallery"
+        android:drawablePadding="5dp"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/text_view_selector"
+        android:id="@+id/btnGallery" />
+</LinearLayout>

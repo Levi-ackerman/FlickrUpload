@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Flickr Upload</string>
+    <string name="title_activity_list_photo">Your Photos</string>
+    <string name="message.upload.success">Upload Successful</string>
+    <string name="message.upload.failed">Upload Failed. Please Try Again</string>
+    <string name="message.select.photo">Please Pick A Photo</string>
+    <string name="menu.logout">Logout</string>
+    <string name="text.select.camera">Take Photo</string>
+    <string name="text.select.gallery">Choose From Gallery</string>
+    <string name="authen.success.message">Authorization Success</string>
+</resources>
