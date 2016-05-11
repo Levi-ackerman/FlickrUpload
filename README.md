@@ -1,3 +1,4 @@
 # FlickrUpload
+Android application to upload image into Flickr.
 
-Flickr Upload Example
+Use Flickr API and MVP Architecture
